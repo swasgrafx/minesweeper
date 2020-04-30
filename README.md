@@ -1,3 +1,20 @@
+## Minesweeper game 
+Classic board game that is aesthetically similar to tic-tac-toe and it is simple enough to be possible for a beginner to build.
+
+### Getting Started
+We will have 3 components.
+* Cell : The cell component renders a cell div that represents each square in the board.
+* Board: The board component renders a 8x8 board containing a total of 64 cells and 10 of the cells will contain mines.
+* Game: The game component renders the board component.
+
+### Rules of the game
+* The goal of the game is to find all the mines on the board.
+* You reveal mines by clicking the cells, if you reveal a mine you loose.
+* If you reveal a cell without mine it will show number of mines surrounding the cell.
+* You can flag a field by right clicking it.
+* You win the game if you are able to reveal all the cells that is not a mine or you have flagged all the cells that is a mine.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
