@@ -3,6 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+// Add function refresh page 
+  function refreshPage() {
+    window.location.reload(false);
+  }
+  
+  return (
+    <div className="button">
+    <button onClick={refreshPage}>Replay Game!</button>
+    </div>
+  );
+
   return (
     <div className="App">
       <header className="App-header">
